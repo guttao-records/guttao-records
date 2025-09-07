@@ -48,14 +48,15 @@ footer {
   text-align: center;
 }
 .music-player {
+  flex: 1 1 300px; 
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 12px;
-  max-width: 320px;
+  max-width: 100%;
   margin: 20px auto;
   font-family: 'Helvetica Neue', sans-serif;
 }
@@ -106,3 +107,23 @@ audio {
 .btn-single:hover {
   background: #e65c00;
 }
+.player-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os players */
+  flex-wrap: wrap; /* permite quebrar em telas pequenas */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.player-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* espaço entre os players */
+  flex-wrap: wrap; /* permite quebrar em telas pequenas */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+
+
