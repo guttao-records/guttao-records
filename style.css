@@ -92,8 +92,8 @@ audio {
 .player-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaço entre os players */
-  flex-wrap: wrap; /* permite quebrar em telas pequenas */
+  gap: 20px; 
+  flex-wrap: wrap; 
   margin: 20px auto;
   max-width: 800px;
 }
@@ -101,8 +101,8 @@ audio {
 .player-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* espaço entre os players */
-  flex-wrap: wrap; /* permite quebrar em telas pequenas */
+  gap: 20px; 
+  flex-wrap: wrap; 
   margin: 20px auto;
   max-width: 800px;
 }
